@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';  
 
 import DashBoard from "./scenes/dashBoard/dashBoard";
 
