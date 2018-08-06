@@ -12,5 +12,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "npm-clean": "^1.0.3"
   }
 }
