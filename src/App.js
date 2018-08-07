@@ -4,12 +4,13 @@ import './App.css';
 import 'antd/dist/antd.css';  
 
 import DashBoard from "./scenes/dashBoard/dashBoard";
+import Home from "./scenes/home/home";
 
 class App extends Component {
   render() {
     return (
       <div>
-          <DashBoard />
+          <Home />
       </div>
     );
   }
