@@ -1,0 +1,54 @@
+.custom-container {
+    .navbar{
+        min-height: 60px;
+        padding: 10px 0 10px 0;
+        border-radius:0;
+        .container{
+            width: 100%;
+        }
+    }
+    .navbar-inverse{
+        background-image: none;
+        background-color: #7A3757
+    }
+}
+
+.logoImage{
+    margin-top: -30px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white
+}
+
+.navbar-collapse{
+    ul{
+        li{
+            border: 1px solid white;
+           a{
+            color: black
+           }
+           &:hover{
+               background-color: white;
+           }
+        }
+    }
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color: #7A3757
+}
+
+.custom-image{
+    margin-left: 80px !important;
+    margin-top: -52px;
+}
+
+.menu-icon{
+    color:white;
+    cursor: pointer;
+}
+
+.navbar-header{
+    padding-bottom: 7px;
+}
