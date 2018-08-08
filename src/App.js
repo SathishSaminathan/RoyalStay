@@ -5,12 +5,14 @@ import 'antd/dist/antd.css';
 
 import DashBoard from "./scenes/dashBoard/dashBoard";
 import Home from "./scenes/home/home";
+import NavBar from "./scenes/navBar/navBar";
+import Navbar from './scenes/navBar/navBar';
 
 class App extends Component {
   render() {
     return (
       <div>
-          <Home />
+          <Navbar />
       </div>
     );
   }
